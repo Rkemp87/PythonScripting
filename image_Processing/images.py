@@ -16,7 +16,7 @@ from PIL import Image, ImageFilter
 # converted_img.show()
 
 
-ratio_practice = Image.open('./astro.jpg')
+ratio_practice = Image.open('astro.jpg')
 ratio_practice.thumbnail((400,400)) #saves aspect ratio with maximum value
 ratio_practice.save('thumbnail.jpg')
 
